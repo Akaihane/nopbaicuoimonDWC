@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Quicksand:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+/* --------------------header-------------------- */
+.inline-block{
+    display: inline-block;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+.header{
+    padding: 32px 0;
+}
+.logo{
+    width: 40%;
+    text-align: center;
+    vertical-align: middle;
+}
+.logo a{
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 15px;
+    color: palevioletred;
+    text-decoration: none;
+}
+.nav{
+    width: 30%;
+    margin-left: -10px;
+    vertical-align: middle;
+}
+.nav ul{
+    list-style: none;
+}
+.nav li{
+    display: inline-block;
+    margin: 0 25px;
+}
+.nav li a{
+    color: #021913;
+    text-decoration: none;
+    font-size: 20px;
+}
+/*-------------------------- main------------------ */
+/* banner */
+.banner{
+    height: 300px;
+    padding: 150px 0;
+    background: url("../img/wl-op-57s.webp"), black;
+    background-size: cover;
+    background-position: 0 -400px;
+}
+.banner-img{
+    width: 33%;
+    margin-left: -10px;
+    height: 600px;
+    overflow: hidden;
+    box-shadow: 5px 25px 30px rgba(0, 0, 0, 0.11);
+}
+.banner-content{
+    width: 67%;
+    margin-left: -4px;
+    vertical-align: bottom;
+}
+.paddingl-60{
+    padding-left: 60px;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    line-height: 200%;
+    font-size: 40px;
+}
+h2{
+    font-weight: 400;
+    line-height: 200%;
+    font-size: 20px;
+    text-transform: uppercase;
+    word-spacing: 5px;
+}
+p{
+    padding: 20px 0;
+    text-align: justify;
+    line-height: 130%;
+}
+.banner-content h1{
+    color: palevioletred;
+}
+.banner-content h2{
+    color: #021913;
+}
+.banner-content p{
+    color: rgb(141, 140, 140);
+}
+.push{
+    height: 500px;
+}
+/* S1 */
+.S1{
+    padding: 10px 0 80px;
+    background-color: rgb(218, 218, 218);
+}
+.S1 h1{
+    text-align: center;
+    color: #021913;
+    padding-bottom: 10px;
+}
+.box13{
+    width: 30%;
+    margin-left: -4px;
+    height: 600px;
+    overflow: hidden;
+}
+.box2{
+    width: 40%;
+    height: 600px;
+    margin-left: -4px;
+    overflow: hidden;
+}
+/* S2 */
+.S2{
+    background-color: palevioletred;
+    padding: 25px 0;
+}
+.S2-content{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+/* S3 */
+.width-800{
+    width: 800px;
+}
+.S3{
+    background-color: rgb(218, 218, 218);
+    padding: 25px 0;
+}
+.S3 .block{
+    margin: 25px 0;
+}
+.S3 h1{
+    text-align: center;
+    color: #021913;
+}
+.S3-img{
+    width: 45%;
+    height: 500px;
+    margin-left: -4px;
+    overflow: hidden;
+    vertical-align: middle;
+    box-shadow: 5px 25px 30px rgba(0, 0, 0, 0.11);
+}
+.S3-content{
+    width: 55%;
+    margin-left: -4px;
+    vertical-align: middle;
+}
+.S3-content p{
+    color: rgb(141, 140, 140);
+}
+.S3-content a{
+    color: #021913;
+    text-decoration: none;
+}
+hr{
+    margin: 24px 0;
+    border-color: rgb(141, 140, 140);
+}
+.paddingr-60{
+    padding-right: 60px;
+}
+/* S4 */
+.S4{
+    padding: 25px 0 50px 0;
+}
+.S4 .block1{
+    margin: 0 auto;
+    width: 600px;
+    padding: 15px 0;
+    text-align: center;
+}
+.S4 .block1 h2{
+    color: palevioletred;
+}
+.S4 .block2{
+    width: 600px;
+    margin: 0 auto;
+}
+.box45{
+    margin: 0 30px;
+    width: 236px;
+    background-color: palevioletred;
+    padding: 30px 30px 60px 30px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 25px 30px rgba(0, 0, 0, 0.11);
+}
+.S4 h1{
+    line-height: 130%;
+}
+.S4 h2{
+    margin-bottom: 24px;
+}
+.btn{
+    margin: 15px 0;
+    padding: 12px 32px;
+    background-color: white;
+    color: palevioletred;
+    text-decoration: none;
+    border-radius: 30px;
+}
+/* footer */
+.footer{
+    background-color: palevioletred;
+    padding: 30px 0;
+}
+.footer .logo{
+    width: 40%;
+    text-align: center;
+    vertical-align: middle;
+}
+.footer .logo a{
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 15px;
+    color: #021913;
+    text-decoration: none;
+}
+.list-menu{
+    width: 28%;
+    vertical-align: middle;
+}
+.footer ul{
+    list-style: none;
+}
+.footer li{
+    margin: 4px 0;
+}
+.footer ul a{
+    color: #021913;
+    text-decoration: none;
+    font-size: 15px;
+}
+.cp{
+    background-color: rgb(218, 218, 218);
+    text-align: center;
+    line-height: 200%;
+}
